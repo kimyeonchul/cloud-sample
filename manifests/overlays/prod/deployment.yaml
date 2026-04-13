@@ -15,9 +15,9 @@ spec:
             name: cloud-sample-volume
             readOnly: false
             subPath: cloud-sample
-          # - mountPath: /config
-          #   name: application-properties
-          #   readOnly: true
+          - mountPath: /config
+            name: application-properties
+            readOnly: true
                           
       volumes:
       - name: cloud-sample-volume
