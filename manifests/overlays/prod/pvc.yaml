@@ -4,7 +4,7 @@ metadata:
   name: ce-std-pvc
 spec:
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   storageClassName: default
   resources:
     requests:
