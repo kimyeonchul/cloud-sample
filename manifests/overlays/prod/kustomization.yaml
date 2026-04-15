@@ -13,6 +13,6 @@ kind: Kustomization
 namePrefix: prod-
 images:
 - name: acrcloudbizcecomm.azurecr.io/82288143/cloud-sample
-  newTag: "202604150028"
+  newTag: "202604150034"
 - name: acrcloudbizcecomm.azurecr.io/cloud-sample
   newTag: "202604130702"
