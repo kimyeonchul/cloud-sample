@@ -1,7 +1,4 @@
 spring:
-  config:
-    activate:
-      on-profile: local
   datasource:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
@@ -29,4 +26,4 @@ management:
         include: "*"
 
 pvc:
-  path: c:\temp
+  path: /mnt/cloud-sample
